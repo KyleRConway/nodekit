@@ -111,13 +111,13 @@ nodekit examples/simple-chat
 
 Let’s quickly create and test your first “Hello, world!” NodeKit site.
 
-Create a file called `index.page` and add the following content to it:
+Create a file called `index.page` `in the nodekit/examples/` folder and add the following content to it:
 
 ```html
 <h1>Hello, world!</h1>
 ```
 
-Now run `nodekit`, hit _https://localhost_, and you should see your new site.
+Now run `nodekit examples/`, hit _https://localhost_, and you should see your new site.
 
 Yes, NodeKit will happily serve any HTML you throw at it just like any other good web server should. The only catch is you need to put it into a `.page` file.
 
